@@ -5,13 +5,13 @@ h1 {
     color: #ffffff;
     text-align: center;
     margin-left: 205px;
-    
+    float:left;
 }
 body {
     background-image: url("https://raw.githubusercontent.com/SabrinaThong/Basic-Portfolio/master/assets/images/interlaced.png");
 }
 header {
-    height: 100px;
+    height: 75px;
     width: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;;
@@ -27,6 +27,7 @@ h2 {
   li {
       display: inline;
       padding: 15px;
+      
       
   }
 ul {
@@ -58,11 +59,12 @@ footer {
     height: 50px;
     width: 100%;
     margin-bottom: 0px;
+    margin-top: 30px;
   }
 nav { 
      font-size: 120%;
     font-weight: bold;
-    float: center; 
+    float: right; 
     width: 960px; 
     height: 30px;
     text-align: right;
@@ -190,4 +192,26 @@ input[type=text], select, textarea {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
+}
+@media screen and (max-width: 980px) {
+    #wrapper {min-width: 0; width:auto; box-shadow: none; border: none;}
+}
+@media screen and (max-width: 768px) {
+    nav {width: auto; text-align: right;}
+    p { text-align: center;}
+    #wrapper {min-width: 0; width:auto; box-shadow: none; border: none;}
+    img { width: 175px; height: 200px;}
+    nav li {display: inline;}
+    h1 {letter-spacing: 0.1em; margin-left: 0; float: left; margin-top:0;}
+    main { margin-left: 0;}
+   
+}
+@media screen and (max-width: 640px) {
+    h1 {margin-left: 0; width: 100%; margin-top: 0; }
+    nav {float: none; width: auto; padding: 0; text-align: center;}
+    #wrapper {min-width: 0; width:auto; box-shadow: none; border: none;}
+    img {width:300px; height: 320px;}
+    header {float: none;}
+
+
 }
