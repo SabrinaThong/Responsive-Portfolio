@@ -1,5 +1,5 @@
 h1 {
-    background-color: #4aaaa5;
+    background-color: red;
     font-size: 18pt;
     width: 150px;
     color: #ffffff;
@@ -20,7 +20,7 @@ header {
     
 }
 h2 { 
-    color: #4aaaa5;
+    color: red;
     margin-left: 25px;
 }
 
@@ -55,7 +55,7 @@ footer {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid red;
     height: 50px;
     width: 100%;
     margin-bottom: 0px;
@@ -164,6 +164,7 @@ input[type=text], select, textarea {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    height: 278px;
 }
 .work:nth-child(even) {
     margin-right: 40px;
@@ -173,7 +174,7 @@ input[type=text], select, textarea {
     border: 0 none;
     opacity: 0.8;
 }
-.work h3 {
+.work h4 {
     position: absolute;
     bottom: 20px;
     width: 264px;
@@ -182,8 +183,21 @@ input[type=text], select, textarea {
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
+    text-align: right;
+    background: grey;
+    border-bottom: 0;
+}
+.work li {
+    position: relative;
+    bottom: 20px;
+    width: 264px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: right;
+    background: grey;
     border-bottom: 0;
 }
 .auth-image {
