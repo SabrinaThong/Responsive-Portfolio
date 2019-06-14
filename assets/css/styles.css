@@ -71,43 +71,24 @@ nav {
     padding-left: 10px;
     border-bottom-color: 1px solid lightgray;
     }
-.travel {
-    height: 200px;
-    width:200px;
-    float: left;
-    margin: 0 0 40px;
-}
-.course {
-    height: 200px;
-    width:200px;
-    float: right;
-    margin: 0 0 40px;
-
-}
-.computer {
-    height: 200px;
-    width:300px;
-    margin: 0 0 40px;
- 
-}
-.camping {
-    height: 200px;
-    width:200px;
-    margin: 0 0 40px;
-
-}
-.soccer {
-    height: 200px;
-    width:200px;
-    margin: 0 0 40px;
-
-}
-
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 315px;
+      }
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+  
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
 
 p {
     color: black;
 }
-
 
 img {
     float: left;
